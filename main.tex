@@ -4,7 +4,8 @@
 \usepackage{graphicx, subfiles, hyperref, csquotes, enumitem, grffile, longtable, wrapfig, rotating}
 
 \usepackage[T1]{fontenc}    % avoid garbled Unicode text in pdf
-\usepackage[german]{babel}  % german hyphenation, quotes, etc
+\usepackage[ngerman]{babel}  % german hyphenation, quotes, etc
+\usepackage{microtype}
 \usepackage[nonumberlist]{glossaries}     % provides glossary commands
 \usepackage[normalem]{ulem}
 \usepackage{amsmath, textcomp, amssymb, capt-of, glossaries, titling, eso-pic, lipsum, lastpage, titleps, calc}
@@ -20,7 +21,7 @@
 % makes refs to images jump to top of image instead of jumping to caption below
 \usepackage[all]{hypcap}
 
-\usepackage[none]{hyphenat}
+\setlength\parindent{0pt}
 
 \newcommand*\getlength[1]{\number#1}
 
